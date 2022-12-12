@@ -23,6 +23,7 @@ https://github.com/HernandoMV/czi-rs-functions
 3. Get the lesioned area running get_lesion_area.py in Fiji
 <p align="middle">
   <img src="doc/imgs/img_1.png" width=350>
+  <figcaption align = "center"><b>Output of get_lesion_area.py</b></figcaption>
 </p>
 
 4. Register ROIs to ARA with register_ROIs_to_ARA.py
