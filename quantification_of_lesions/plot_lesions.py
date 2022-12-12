@@ -246,10 +246,10 @@ if __name__ == '__main__':
     
     # generate a plot with all data
     print('   --- plotting all data...')
-    # generate_lesion_plot_all(infile)
+    generate_lesion_plot_all(infile)
     # generate a plot for each mouse
     print('   --- plotting individual animals...')
-    # generate_lesion_plot_individuals(infile)
+    generate_lesion_plot_individuals(infile)
     print('   --- plotting all animals binned...')
     generate_lesion_plot_all_binned(infile)
     print('Done')

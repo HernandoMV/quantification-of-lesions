@@ -8,8 +8,11 @@ import os
 import glob
 
 FILE_ENDING = 'cells-ROIs.zip'
-CAUDOPUTAMEN_FILE = r'C:\Users\herny\Desktop\SWC\Data\Anatomy\AllanBrainAtlas_Images\Caudoputamen_25umpx.tif'
-AUD_FILE = r'C:\Users\herny\Desktop\SWC\Data\Anatomy\AllanBrainAtlas_Images\Vis_Aud_merge\AUD_thresholded_gaussian_25umpx-Caudoputamen.tif'
+fin_path = os.path.dirname(os.path.dirname(__file__))
+CAUDOPUTAMEN_FILE = os.path.join(fin_path, 'data', 'Caudoputamen_25umpx.tif')
+AUD_FILE = os.path.join(fin_path, 'data', 'AUD_thresholded_gaussian_25umpx-Caudoputamen.tif')
+# CAUDOPUTAMEN_FILE = r'C:\Users\herny\Desktop\SWC\Data\Anatomy\AllanBrainAtlas_Images\Caudoputamen_25umpx.tif'
+# AUD_FILE = r'C:\Users\herny\Desktop\SWC\Data\Anatomy\AllanBrainAtlas_Images\Vis_Aud_merge\AUD_thresholded_gaussian_25umpx-Caudoputamen.tif'
 
 # quantify roi
 if __name__ in ['__builtin__', '__main__']:

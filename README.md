@@ -20,15 +20,23 @@ https://github.com/HernandoMV/czi-rs-functions
 
 2. Register with ABBA (see this repo for instructions: https://github.com/HernandoMV/ph3-analysis), but DO NOT tilt the atlas much.
 
-3. Get the lesioned area running get_lesion_area.py in Fiji
+3. Get the lesioned area running ```get_lesion_area.py``` in Fiji.
 <p align="middle">
   <img src="doc/imgs/img_1.png" width=350>
-  <figcaption>Output of get_lesion_area.py</figcaption>
 </p>
 
-4. Register ROIs to ARA with register_ROIs_to_ARA.py
+4. Register ROIs to ARA with ```register_ROIs_to_ARA.py``` in Fiji. You need to specify the path to the Allen Brain Atlas and the resolution.
+<p align="middle">
+  <img src="doc/imgs/img_2.png" width=350>
+</p>
 
-5. Quantify the lesions using quantify_lesions.py
+5. Visualise results using ```load_lesion_stacks.py``` in Fiji, which overlays the data of all animals into the atlas.
 
-6. Plot and visualise results using load_lesion_stacks.py and plot_lesions.py
+6. Quantify the lesions using ```quantify_lesions.py``` in Fiji. Uses a couple of extra files that indicate where different anatomical structures are.
+It creates two text files that will be used by the next script.
+
+7. Run ```plot_lesions.py``` in Python to generate graphs like this one:
+<p align="middle">
+  <img src="doc/imgs/img_3.png" width=450>
+</p>
 

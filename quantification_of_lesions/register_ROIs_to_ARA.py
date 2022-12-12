@@ -20,6 +20,7 @@ REGISTRATION_COORDS_FILE_ENDING = '_ch0_Coords.tif'
 # AP_OFFSET = - float(18) * 25 / 1000 # In mm
 AP_OFFSET = 0.
 
+# needs an atlas file to be able to get dimensions
 ATLAS_FILE = '/home/hernandom/data/Anatomy/ARA_25_micron_mhd/template.tif'
 # ATLAS_FILE = r'C:\Users\herny\Desktop\SWC\Data\Anatomy\ARA_25_micron_mhd\template.tif'
 
