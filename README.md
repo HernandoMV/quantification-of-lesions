@@ -1,5 +1,9 @@
 # quantification-of-lesions
-What is does
+Uses histological data stained with NeuN and imaged in the Slide Scanner to quantify the proportion of tissue that has been lesioned (e.g. using caspase)
+You can generate figures such as this one with the data that this pipeline outputs, and some automatic quantifications:
+<p align="middle">
+  <img src="doc/imgs/img_0.png" width=550>
+</p>
 
 ### Installation
 
@@ -9,9 +13,7 @@ https://github.com/HernandoMV/czi-rs-functions
 
 
 
-### Usage
-
-# Workflow for quantifying lesions
+### Usage workflow
 0. This assumes image acquisition with at least 2 channels (DAPI and NeuN) or slices that are well oriented in DV
   - Make sure the name of the .czi files is 'Animal-X-Y-Z_Experimental-Procedure_slide-X.czi
   - The underscores are very important. Don't have spaces. The last part (e.g. '..._slide-1') is also crucial.
