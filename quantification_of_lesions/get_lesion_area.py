@@ -106,7 +106,7 @@ if __name__ in ['__builtin__', '__main__']:
         # Convert to 8bit and rename
         # ImageConverter(NeuN_im).convertToGray8()
         NeuN_im.setTitle(slice_name)
-        # regions file 
+        # regions file
         rois_file = slice + '_ch0.zip'
         # create masks out of rois
         for rn in [STR, CTX]:
