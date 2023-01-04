@@ -42,3 +42,5 @@ It creates two text files that will be used by the next script.
   <img src="doc/imgs/img_3.png" width=450>
 </p>
 
+### TODO:
+1. Move here the .ijm file in brain_visualizations repo for creating the main plot, and add the necesary data and instructions to generate the figure in Fiji
